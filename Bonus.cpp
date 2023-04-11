@@ -46,7 +46,7 @@ int checkWorld()
             cleanA = 1;
         }
     }
-    if(worldB == 1)
+    else if(worldB == 1)
     {
         if(cleanB == 1)
         {
@@ -70,7 +70,6 @@ int main()
     int worldA, worldB, cleanA, cleanB;
 
     worldRandomizer(worldA, worldB, cleanA, cleanB);
-
 
     for (int i = 0; i <= 3; i++)
     {
